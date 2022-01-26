@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 10px auto;
+    border: 5px solid black;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+.kotak1 {
+    transition: 1s ease;
+}
+
+.kotak2 {
+    transition: 1s ease-in;
+}
+
+.kotak3 {
+    transition: 1s ease-out;
+}
+
+.kotak4 {
+    transition: 1s ease-in-out;
+}
+
+.kotak5 {
+    transition: 1s linear;
+}
+
+.kotak6 {
+    transition: 1s cubic-bezier(0.27, 0.04, 0.12, 0.96);
+}
+
+.container:hover .kotak1 {
+    margin-left: 800px;
+    background-color: blue;
+    transform: rotate(180deg);
+
+}
+
+.container:hover .kotak2 {
+    margin-left: 800px;
+    background-color: blue;
+    transform: rotate(360deg);
+
+}
+
+.container:hover .kotak3 {
+    margin-left: 800px;
+    background-color: blue;
+    transform: rotate(360deg);
+
+}
+
+.container:hover .kotak4 {
+    margin-left: 800px;
+    background-color: blue;
+    transform: rotate(360deg);
+
+}
+
+.container:hover .kotak5 {
+    margin-left: 800px;
+    background-color: blue;
+    transform: rotate(360deg);
+
+}
+
+.container:hover .kotak6 {
+    margin-left: 800px;
+    background-color: blue;
+    transform: rotate(360deg);
+
+}
