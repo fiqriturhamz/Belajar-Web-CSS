@@ -4,27 +4,81 @@
     <title>
         Belajar Bikin Gallery Foto
     </title>
-    <link href="../Bikin Galeri Foto + Lightbox/css/style.css">
-    <link href="../Bikin Galeri Foto + Lightbox/css/reset.css">
+    <link href="../Bikin Galeri Foto + Lightbox/css/style.css" rel="stylesheet">
     <meta charset="UTF-8">
-
-
-
 </head>
 
 <body>
     <h1>AVENGERS</h1>
     <div class="container">
-        <div class="gallery">
-            <ul>
-                <li>
-                    <a><img src=""></a>
+
+        <ul class="gallery">
+            <li>
+                <a href="#gambar-1"><img src="img/thumb/batman.png">
                     <span>Captain America</span>
-                </li>
+                </a>
+
+                <div class="overlay" id="gambar-1">
+                    <a href="#gambar-2" class="next">next</a>
+                    <a href="#gambar-4" class="prev">prev</a>
+                    <a href="#" class="close">x close</a>
+                    <img src="img/full/batman.png" alt="batman">
+
+                </div>
+
+            </li>
+
+            <li>
+                <a href="#gambar-2"><img src="img/thumb/spiderman.png" alt="spiderman">
+                    <span>Spiderman</span>
+                </a>
+
+                <div class="overlay" id="gambar-2">
+                    <a href="#gambar-3" class="next">next</a>
+                    <a href="#gambar-1" class="prev">prev</a>
+                    <a href="#" class="close">x close</a>
+                    <img src="img/full/spiderman.png" alt="spiderman">
+
+                </div>
+
+            </li>
+
+            <li>
+                <a href="#gambar-3"><img src="img/thumb/hulk.png">
+                    <span>Hulk</span>
+                </a>
+
+                <div class="overlay" id="gambar-3">
+                    <a href="#gambar-4" class="next">next</a>
+                    <a href="#gambar-2" class="prev">prev</a>
+                    <a href="#" class="close">x close</a>
+                    <img src="img/full/hulk.png" alt="Hulk">
+
+                </div>
+
+            </li>
 
 
-            </ul>
-        </div>
+            <li>
+                <a href="#gambar-4"><img src="img/thumb/iron man.png">
+                    <span>Iron Man</span>
+                </a>
+
+                <div class="overlay" id="gambar-4">
+                    <a href="#gambar-1" class="next">next</a>
+                    <a href="#gambar-3" class="prev">prev</a>
+                    <a href="#" class="close">x close</a>
+                    <img src="img/full/iron man.png" alt="Iron Man">
+
+                </div>
+
+            </li>
+
+
+
+            <div class="clear"></div>
+        </ul>
+
     </div>
 
 </body>
